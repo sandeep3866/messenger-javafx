@@ -1,0 +1,24 @@
+cat > .gitignore << 'EOF'
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+hs_err_pid*
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# Build output
+bin/
+out/
+target/
+build/
+EOF

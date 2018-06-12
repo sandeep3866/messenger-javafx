@@ -1,0 +1,31 @@
+.button{
+    -fx-padding: 9 20 9 20;
+}
+
+.combo-box .list-cell 
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 5 15 5 15;
+}
+
+.vbox {
+    -fx-border-width: 2px;
+    -fx-padding: 100;
+    -fx-border-width: 20px;
+    -fx-background-color: transparent;
+    
+}
+
+.scroll-pane .content {
+    -fx-background-color: transparent ;
+}
+
+TextArea .scroll-bar:vertical *.increment-button,
+TextArea *.scroll-bar:vertical *.decrement-button{
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
